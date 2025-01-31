@@ -5,6 +5,7 @@
         <el-form-item label="Title" id="title" class="lable" style="color: #000000">
           <el-input style="width: 100%" v-model="blogInfo.title" />
         </el-form-item>
+        <el-button>123</el-button>
         <div id="tags">
           <el-form-item label="Category">
             <el-select v-model="optionInfo.folders" multiple placeholder="Select" style="width: 100%"
